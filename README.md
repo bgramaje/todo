@@ -10,3 +10,9 @@
 * 🦥 Mejorar el *`express-sql-typescript-template`*, e incluir el módulo *`auth-module-sql`* que se va a hacer.
 * 🦥 Mejorar el *`express-no-sql-typescript-template`*, e incluir el módulo *`auth-module-no-sql`* que se va a hacer.
 * 🦥 Crear una template *`react-template-auth`*, que incluya la declaración del context y hook de auth, las llamadas al back sobre las rutas de *`auth-module-*`* y una base de la declaración de rutas públicas y privadas dependiendo si el usuario esta indetificado.
+
+#### Babetecno Front
+* 🦥 Limitar la cantidad de correos que se muestran, sobrecarga mucho el front.
+    * Hacer como en la webapp del covid, que conforme haga scroll vayan apareciendo nuevos correos.
+* 🦥 Proponer que se haga en IMAP antes que en POP3, ya que con IMAP se puede hacer un listener sin tener que obtener todos los correos (supone carga).
+* 🦥 Acabar de implementar el CRUD de `clientes(usar campos parecidos a los de Devoltec?)`, `software` y `usuarios`. 
